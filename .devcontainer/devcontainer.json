@@ -1,0 +1,12 @@
+{
+  "name": "resume",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "postCreateCommand": ".devcontainer/startup.sh",
+  "customizations": {
+    "vscode": {
+      "extensions": ["mathematic.vscode-pdf"]
+    }
+  }
+}
